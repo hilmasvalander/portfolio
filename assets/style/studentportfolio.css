@@ -13,6 +13,17 @@ body {
 	margin-bottom: 50px;
 }
 
+
+.style {
+    display: block;
+}
+
+div{
+    overflow: hidden;
+}
+    
+    
+    
 p {
 	margin-bottom: 20px;
 	}
