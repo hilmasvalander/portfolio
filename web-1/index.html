@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Hilma Svalander</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Web Design Example 1">
+    <meta name="keywords" content="Web, Design, Example">
+    <meta name="author" content="Hilma Svalander">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="assets/style/screen.css">
+</head>
+
+<body>
+<div class="container">
+<header id="top" class="primary">
+    <a href="index.html"><img src="assets/images/webpage-header.jpg" alt="Header" id="header"></a>
+
+
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'UALR')" title="University of Arkansas at Little Rock">UALR</button>
+  <button class="tablinks" onclick="openTab(event, 'CourseHomepage')" title="Opens an empty tab">Course Homepage</button>
+  <button class="tablinks" onclick="openTab(event, 'W3C')" title="This tab is also empty">W3C</button>
+  <button class="tablinks" onclick="openTab(event, 'LR')" title="Capitol of Arkansas">Little Rock</button>
+  <button class="tablinks" onclick="window.open('https://thetruesize.com/#?borders=1~!MTU2Nzc4MzU.NDI4MTY3Nw*MjY5MDIzMTU(MTA1ODk4MTU~!CONTIGUOUS_US*MTAwMjQwNzU.MjUwMjM1MTc(MTc1)MA~!IN*NTI2NDA1MQ.Nzg2MzQyMQ)MQ~!CN*OTkyMTY5Nw.NzMxNDcwNQ(MjI1)Mg')" 
+  title="Website will open in new tab"> True Size</button>
+  <button class="tablinks" onclick="openTab(event, 'Start')" title="Back to start" id="defaultOpen">Start Page</button>
+</div>
+</header>
+
+<div class="content"> 
+<div id="Start" class="tabcontent">
+<h1>My Assessment</h1>
+    <img src="assets/images/webpage-image-1.jpg" alt="Globe and Blueprint image" class="content-img">
+    <p>The most important goal of effective communication is clarity. Clarity is  not the same as simplicity.
+        Often, simple things are clear if the message is intended to be brief and small, but often th message is 
+        about a complex relationship that can only be presented with a necessarily large amount of data.</p>
+
+    <p class="alert">This complexity can be made to appear clear by effective organization and presentation and need not to 
+        be reduced to meaningleass "bite-sized" chunks of data, as simplification usually does.</p>
+
+    <p>Clarity refers to the focus on one particular message or goal at a time, rather tham attempting to accomplish too 
+        much at once. Simplicity is often responsible for the "dumbing" of information rather than the illumination of it.</p>
+
+  <h2>Questions</h2>
+    <p>Please answer the following questions below. Remember to markup the information properly using HTML</p>
+
+  <h3>Explain the difference between the "alt" attribute and the "title" attribute.</h3>
+    <p> The "alt" attribute is required for images and will show up as a text describing the image if the image for reasons 
+    like slow connection or faulty source code does not show up. Like shown in the example below. </p>
+    <img src="assets/images/there-is-no-image.jpg" alt="This is the alt text">
+    <p> The "title" attribute creates a tooltip which is used when extra information is needed. The value is showed when 
+    the mouse is over the element. see example below.</p>
+    <p title="Here's the secret tooltip" class="title">This is a paragraph with a secret message. Hover your mouse over it for a second to reveal it.</p>
+    
+  <h3>Please provide an example of how to mark up a definition from the dictionary below</h3>
+   <p>This is how a defintiion is marked up. The "blockquote", "dl" and "dt" tags are used. </p>
+    <blockquote>
+        <dl>
+          <dt>Definition</dt>
+          <dd>a statement of the exact meaning of a word, especially in a dictionary.</dd>
+        </dl>
+    </blockquote>
+
+  <h3>Provide an example of a link pointing to your favorite site</h3>
+    <p>My favorite website is &nbsp;<a href="https://thetruesize.com/#?borders=1~!MTU2Nzc4MzU.NDI4MTY3Nw*MjY5MDIzMTU(MTA1ODk4MTU~!CONTIGUOUS_US*MTAwMjQwNzU.MjUwMjM1MTc(MTc1)MA~!IN*NTI2NDA1MQ.Nzg2MzQyMQ)MQ~!CN*OTkyMTY5Nw.NzMxNDcwNQ(MjI1)Mg" target="_blank"> True Size</a>&nbsp; where you can see the true sizes of countries. </p>
+</div>
+</div>
+
+<!-- Tab content -->
+<div id="UALR" class="tabcontent">
+  <h1>University of Arkansas at Little Rock</h1>
+  <p> <a href="https://ualr.edu/" target="_blank">UALR website</a></p>
+  </div>
+
+<div id="CourseHomepage" class="tabcontent">
+  <h1>Capstone 1</h1>
+  <p></p>
+</div>
+
+<div id="W3C" class="tabcontent">
+  <h1> W3 Schools</h1>
+  <p> <a href="https://www.w3schools.com/" target="_blank">w3c</a></p>
+</div>
+
+<div id="LR" class="tabcontent">
+  <h1>Little Rock</h1>
+  <p>The Capitol of Arkansas</p>
+</div>
+
+<footer>
+
+    <h6>&copy; 2020 Hilma Svalander - <a href="#top">Back to Top</a></h6> 
+</footer>
+
+<script type="text/javascript" src="assets/scripts/index.js"></script>
+
+</div> <!--container-->
+</body>
+</html>
